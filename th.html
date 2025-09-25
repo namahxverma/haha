@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Treasure Hunt Prototype</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/html5-qrcode" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+
+    <section id="register-section">
+      <h1>Treasure Hunt Registration</h1>
+      <form id="registration-form">
+        <input type="text" id="username" placeholder="Enter your name" required />
+        <button type="submit">Join Hunt</button>
+      </form>
+    </section>
+
+    <section id="clue-section" class="hidden">
+      <h2>Current Clue</h2>
+      <p id="clue-text"></p>
+      <div id="qr-reader" style="width: 320px;"></div>
+    </section>
+
+    <section id="progress-section" class="hidden">
+      <h2>Progress</h2>
+      <p id="progress-text"></p>
+    </section>
+
+    <section id="final-section" class="hidden">
+      <h1>🎉 Congratulations! 🎉</h1>
+      <p>You have completed the treasure hunt and found the treasure!</p>
+    </section>
+
+  </div>
+</body>
+</html>
