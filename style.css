@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f9ff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 480px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h1, h2 {
+  color: #1e88e5;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1565c0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Responsive QR reader */
+#qr-reader {
+  margin: 1rem auto;
+}
